@@ -156,7 +156,7 @@ Future work:
 4. Improve abnormal-event logic with contextual interaction features.
 
 ## 8. Reproducibility Artifacts
-- Project repository: `https://github.com/KushTheDoosh/team10-computational-perception-final-project`
+- Project repository: `https://github.com/KushTheDoosh/team10-computational-perception-final-project.git`
 - Branch used for submission: `main`
 Primary files in project folder:
 - `00_reports/final_project_writeup_submission_ready.md`
