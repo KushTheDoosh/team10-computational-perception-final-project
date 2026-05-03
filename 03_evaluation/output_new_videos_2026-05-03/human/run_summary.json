@@ -1,0 +1,12 @@
+{
+  "video_path": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/human.mp4",
+  "processed_frames": 141,
+  "source_fps": 24.0,
+  "processing_fps": 44.549904519270534,
+  "avg_frame_time_ms": 22.446737221792237,
+  "duration_sec": 5.875,
+  "total_alerts": 0,
+  "output_video": "",
+  "predictions_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_new_videos_2026-05-03/human/predictions_per_frame.csv",
+  "alerts_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_new_videos_2026-05-03/human/alerts.csv"
+}

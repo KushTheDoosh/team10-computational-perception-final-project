@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+*.pyc
+00_reports/Final_report_extracted.txt

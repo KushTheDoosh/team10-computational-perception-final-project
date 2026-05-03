@@ -1,0 +1,1 @@
+Total clips: 28\nHuman precision/recall/F1: 0.286/0.200/0.235\nSuspicious precision/recall/F1: 0.000/0.000/0.000\nAnimal abnormal precision/recall/F1: 0.000/0.000/0.000\nBehavior accuracy (on labeled human clips): 0.200 (2/10)\nWeighted processing FPS: 51.89\nWeighted frame time ms: 19.27\n

@@ -1,0 +1,53 @@
+{
+  "per_video": {
+    "human": {
+      "frames": 141,
+      "duration_sec": 5.875,
+      "processing_fps": 44.549904519270534,
+      "avg_frame_time_ms": 22.446737221792237,
+      "total_alerts": 0,
+      "false_alarm_rate_per_hour_proxy": 0.0,
+      "human_detected_frames": 141,
+      "human_detected_ratio": 1.0,
+      "max_humans": 6,
+      "avg_num_humans": 3.9148936170212765,
+      "animal_abnormal_alert_frames": 0,
+      "suspicious_alert_frames": 0,
+      "max_animals": 3,
+      "avg_num_animals": 1.1914893617021276,
+      "behavior_counts": {
+        "idle": 7,
+        "walking": 2,
+        "running": 132
+      }
+    },
+    "animal": {
+      "frames": 141,
+      "duration_sec": 5.875,
+      "processing_fps": 44.80588501221562,
+      "avg_frame_time_ms": 22.318496771738037,
+      "total_alerts": 0,
+      "false_alarm_rate_per_hour_proxy": 0.0,
+      "human_detected_frames": 123,
+      "human_detected_ratio": 0.8723404255319149,
+      "max_humans": 3,
+      "avg_num_humans": 1.7730496453900708,
+      "animal_abnormal_alert_frames": 0,
+      "suspicious_alert_frames": 0,
+      "max_animals": 6,
+      "avg_num_animals": 2.9432624113475176,
+      "behavior_counts": {
+        "idle": 6,
+        "walking": 3,
+        "running": 132
+      }
+    }
+  },
+  "combined": {
+    "total_frames": 282,
+    "total_duration_sec": 11.75,
+    "weighted_processing_fps": 44.677894765743076,
+    "total_alerts": 0,
+    "alert_rate_per_hour": 0.0
+  }
+}

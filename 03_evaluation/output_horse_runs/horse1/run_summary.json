@@ -1,0 +1,12 @@
+{
+  "video_path": "/Users/kushchaudhary/Documents/horseVId.mp4",
+  "processed_frames": 1709,
+  "source_fps": 30.0,
+  "processing_fps": 55.54383363738681,
+  "avg_frame_time_ms": 18.003798702992214,
+  "duration_sec": 56.96666666666667,
+  "total_alerts": 0,
+  "output_video": "",
+  "predictions_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse1/predictions_per_frame.csv",
+  "alerts_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse1/alerts.csv"
+}

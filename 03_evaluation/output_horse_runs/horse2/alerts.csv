@@ -1,0 +1,5 @@
+frame_idx,timestamp,alert_type,level,message
+1735,2026-05-01T09:17:52,lingering,MEDIUM,Human lingering ID=20
+4882,2026-05-01T09:18:52,lingering,MEDIUM,Human lingering ID=41
+5114,2026-05-01T09:18:57,lingering,MEDIUM,Human lingering ID=41
+6444,2026-05-01T09:19:27,lingering,MEDIUM,Human lingering ID=46

@@ -1,0 +1,160 @@
+{
+  "dataset": {
+    "total_clips": 28,
+    "clip_duration_sec": 3.0,
+    "sources": {
+      "horseVId.mp4": 10,
+      "horsevid2.mp4": 18
+    }
+  },
+  "thresholds": {
+    "human_present_rule": "pred_h=1 if human_detected_ratio >= 0.12 and max_humans >= 1 within clip window",
+    "suspicious_rule": "pred_s=1 if any suspicious_alert frame in clip window",
+    "animal_abnormal_rule": "pred_a=1 if any animal_abnormal_alert frame in clip window"
+  },
+  "overall": {
+    "human": {
+      "tp": 2,
+      "fp": 5,
+      "fn": 8,
+      "tn": 13,
+      "precision": 0.2857142857142857,
+      "recall": 0.2,
+      "f1": 0.23529411764705882,
+      "accuracy": 0.5357142857142857
+    },
+    "suspicious": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 1.0
+    },
+    "animal_abnormal": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "tn": 26,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.9285714285714286
+    },
+    "behavior": {
+      "evaluated_clips": 10,
+      "correct": 2,
+      "accuracy": 0.2,
+      "confusion": {
+        "idle": {
+          "idle": 2,
+          "running": 1
+        },
+        "suspicious": {
+          "idle": 4,
+          "running": 3
+        }
+      }
+    }
+  },
+  "per_source": {
+    "horseVId.mp4": {
+      "clips": 10,
+      "human_metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 1.0
+      },
+      "suspicious_metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 1.0
+      },
+      "animal_metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 1.0
+      }
+    },
+    "horsevid2.mp4": {
+      "clips": 18,
+      "human_metrics": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 8,
+        "tn": 3,
+        "precision": 0.2857142857142857,
+        "recall": 0.2,
+        "f1": 0.23529411764705882,
+        "accuracy": 0.2777777777777778
+      },
+      "suspicious_metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 1.0
+      },
+      "animal_metrics": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "tn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.8888888888888888
+      }
+    }
+  },
+  "runtime": {
+    "by_source": {
+      "horseVId.mp4": {
+        "video_path": "/Users/kushchaudhary/Documents/horseVId.mp4",
+        "processed_frames": 1709,
+        "source_fps": 30.0,
+        "processing_fps": 55.54383363738681,
+        "avg_frame_time_ms": 18.003798702992214,
+        "duration_sec": 56.96666666666667,
+        "total_alerts": 0,
+        "output_video": "",
+        "predictions_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse1/predictions_per_frame.csv",
+        "alerts_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse1/alerts.csv"
+      },
+      "horsevid2.mp4": {
+        "video_path": "/Users/kushchaudhary/Documents/horsevid2.mp4",
+        "processed_frames": 6509,
+        "source_fps": 29.99666934296281,
+        "processing_fps": 50.93217706953145,
+        "avg_frame_time_ms": 19.633953573883613,
+        "duration_sec": 216.99075739310388,
+        "total_alerts": 4,
+        "output_video": "",
+        "predictions_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse2/predictions_per_frame.csv",
+        "alerts_csv": "/Users/kushchaudhary/Desktop/computational Perception/Team10_Final_Project_Review/03_evaluation/output_horse_runs/horse2/alerts.csv"
+      }
+    },
+    "weighted_processing_fps": 51.89120859477662,
+    "weighted_avg_frame_time_ms": 19.271087089319792
+  }
+}
