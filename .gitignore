@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 00_reports/Final_report_extracted.txt
+
+00_reports/
